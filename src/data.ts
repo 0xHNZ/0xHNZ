@@ -10,7 +10,7 @@ export const socials = [
 ];
 
 export const currently = {
-  intro: ['software engineer.', 'exploring cybersecurity.'],
+  intro: ['software engineer learning Cybersecurity.', 'This is where I document what I learn along the way.'],
   focusedLabel: 'focused on:',
   focus: [
     'WEB SECURITY',
