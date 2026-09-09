@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="flex items-center justify-between">
         <span className="font-mono text-[10px] sm:text-xs text-dim tracking-wider">
           {footer.left}
-        </span>
+      </span> 
         <span className="font-mono text-[10px] sm:text-xs text-dim tracking-wider">
           {footer.right}
         </span>
