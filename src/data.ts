@@ -19,7 +19,8 @@ export const currently = {
     'VULNERABILITY RESEARCH',
   ],
   closing: [
-    'building things. breaking things.',
+    'building things.',
+    'breaking things.',,
     'learning how they work.',
   ],
 };
