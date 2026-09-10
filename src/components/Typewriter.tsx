@@ -33,7 +33,7 @@ export default function Typewriter({
   return (
     <span className={className}>
       {displayed}
-      {showCursor && <span className={done ? 'cursor-blink text-accent' : 'text-accent'}>▋</span>}
+      {showCursor && <span className={done ? 'cursor-blink text-white' : 'text-white'}>▋</span>}
     </span>
   );
 }

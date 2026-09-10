@@ -17,7 +17,7 @@ export default function Currently() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
           <div>
-            <div className="mb-8 space-y-1">
+            <div className="mb-8 space-y-3">
               {currently.intro.map((line) => (
                 <p
                   key={line}
@@ -38,14 +38,14 @@ export default function Currently() {
                   key={item}
                   className="font-mono text-sm md:text-base text-fg flex items-center gap-3"
                 >
-                  <span className="text-accent">→</span>
+                  <span className="text-accent relative -top-1">→</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="md:flex md:justify-end md:pt-20">
+          <div className="md:flex md:justify-end md:pt-32">
             <div className="space-y-1">
               {currently.closing.map((line) => (
                 <p

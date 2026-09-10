@@ -10,7 +10,7 @@ export const socials = [
 ];
 
 export const currently = {
-  intro: ['software engineer learning Cybersecurity.', 'This is where I document what I learn along the way.'],
+  intro: ['software engineer learning Cybersecurity', 'this is where I document what I learn along the way'],
   focusedLabel: 'focused on:',
   focus: [
     'WEB SECURITY',
@@ -19,9 +19,9 @@ export const currently = {
     'VULNERABILITY RESEARCH',
   ],
   closing: [
-    'building things.',
-    'breaking things.',,
-    'learning how they work.',
+    'building things',
+    'breaking things',,
+    'learning how they work',
   ],
 };
 
